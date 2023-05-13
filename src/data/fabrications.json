@@ -1,0 +1,43 @@
+[
+  {
+    "item": "tub",
+    "itemId": 101,
+    "rawMaterial": "sheet steel",
+    "quantity": "10 sqft",
+    "inDate": "14/02/2020",
+    "outDate": "21/02/2020"
+  },
+  {
+    "item": "pump",
+    "itemId": 102,
+    "rawMaterial": "plastics",
+    "quantity": "10 kg",
+    "inDate": "16/02/2020",
+    "outDate": "20/02/2020"
+  },
+  {
+    "item": "spinTub",
+    "itemId": 103,
+    "rawMaterial": "stainless steel",
+    "quantity": "5 kg/m3",
+    "inDate": "27/02/2020",
+    "outDate": "5/3/2020"
+  },
+  {
+    "item": "washTub",
+    "itemId": 104,
+    "rawMaterial": "(enameling iron) Porcelain coating",
+    "quantity": "24 gauge",
+    "inDate": "27/02/2020",
+    "outDate": "3/2/2020"
+  },
+
+  {
+    "item": "balanceRing",
+    "itemId": 105,
+    "rawMaterial": "plastics",
+    "quantity": "3 kg",
+    "inDate": "16/03/2020",
+    "outDate": "21/03/2020"
+  }
+]
