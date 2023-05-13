@@ -1,0 +1,20 @@
+{
+  "components": [
+    {
+      "name": "Sheets",
+      "id": 12345
+    },
+    {
+      "name": "Tub",
+      "id": 67890
+    },
+    {
+      "name": "Button",
+      "id": 23456
+    },
+    {
+      "name": "washing machine",
+      "id": 78901
+    }
+  ]
+}
