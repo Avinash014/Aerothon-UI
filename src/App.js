@@ -13,10 +13,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<UserList />} />
+        <Route path="/" element={<FabricationList />} />
         <Route path="/admin" element={<AdminList />} />
         <Route path="/fabrication" element={<FabricationList />} />
-        <Route path="/component" element={<ComponentList />} />
+        <Route path="/users" element={<UserList />} />
       </Routes>
     </Router>
   );
