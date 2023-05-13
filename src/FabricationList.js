@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import mockData from "./data/admins.json";
+// import mockData from "./data/admins.json";
+import "./Fabrication.css";
 
 function FabricationList() {
   const [users, setUsers] = useState([]);
@@ -47,13 +48,36 @@ function FabricationList() {
 
   return (
     <>
-      <p>Users</p>
+      <p>Item</p>
       {/* <ul>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
         ))}
       </ul> */}
-      <ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Item ID</th>
+            <th>Item Name</th>
+            <th>Item Quantity</th>
+            <th>Incoming Date</th>
+            <th>Outgoing Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {mockUsers.map((user) => (
+            <tr key={user.itemId}>
+              <td>{user.itemId}</td>
+              <td>{user.item}</td>
+              <td>{user.quantity}</td>
+              <td>{user.inDate}</td>
+              <td>{user.outDate}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      {/* <ul>
         {mockUsers.map((user) => (
           <li key={user.itemId}>
             <p>{user.itemId}</p>
@@ -62,7 +86,7 @@ function FabricationList() {
             <p>{user.quantity}</p>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </>
   );
 }

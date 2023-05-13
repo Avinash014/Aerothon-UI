@@ -7,7 +7,7 @@ import "./App.css";
 import UserList from "./UserList.js";
 import AdminList from "./AdminList.js";
 import ComponentList from "./ComponentList.js";
-import FabricationList from "./fabrication.js";
+import FabricationList from "./FabricationList.js";
 
 function App() {
   return (
